@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+section.main{
+    width:100%;
+    height:520px;
+    background-color: black;
+}
+.leftu{
+    width: 330px;
+    height: 120px;
+    background-color: #121212;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position:fixed;
+    overflow: hidden;
+}
+.leftb{
+    width: 330px;
+    height: 370px;
+    background-color: #121212;
+    margin-top: 140px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position:fixed;
+    overflow: hidden;
+}
+.right{
+    width: 1000px;
+    height:500px;
+    background-color: #121212;
+    margin-left: 350px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: fixed;
+    overflow:auto;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5A5A5A;
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+.home h4{
+    margin-left: 15px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.search h4{
+    margin-left: 15px;
+    color: gray;
+}
+.search svg{
+    margin-left: 5px;
+    color: gray;
+}
+.libraryl{
+    width: 19px;
+    height: 22px;
+    background-image: url(j.png);
+    background-position: center;
+    background-size: cover;
+}
+.library{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:  15px;
+    padding-left: 20px;
+    color: gray;
+}
+.library h4{
+    margin-right: 85px;
+}
+.librarys svg{
+     margin-right: 15px;
+}
+.boxo{
+    width: 310px;
+    height: 130px;
+    background-color: #242424;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.boxt{
+    width: 310px;
+    height: 140px;
+    background-color: #242424;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.boxo{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.boxo h5{
+    margin-top: 10px;
+}
+.boxo button{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+}
+.boxt{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.boxt h5{
+    margin-top: 10px;
+}
+.boxt button{
+    margin-top: 20px;
+    width: 140px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+}
+.boxt button:hover{
+    background-color: gray;
+}
+.circle{
+    display: flex;
+    color: white;
+}
+.circleo{
+    width:30px;
+    height:30px;
+    background-color: black;
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+.circlet{
+    width:30px;
+    height:30px;
+    background-color: black;
+    border-radius: 50px;
+    padding-left: 8px;
+    padding-top: 6px;
+    margin-left: 10px;
+}
+.premium{
+        width: 170px;
+        height:40px;
+        border-radius: 40px;
+        border: none;
+        background-color: white;
+        font-weight: 700;
+        padding-left:12px;
+        padding-top: 10px;
+}
+.install{
+    width: 170px;
+    height:40px;
+    border-radius: 40px;
+    border: none;
+    background-color:black;
+    font-weight: 700;
+    padding-left:20px;
+    padding-top: 10px;
+}
+.install{
+    display: flex;
+    color: white;
+}
+.install h4{
+    margin-left: 10px;
+}
+.circlen{
+    display: flex;
+    margin-left: 10px;
+}
+.circlef{
+    width:30px;
+    height:30px;
+    background-color: black;
+    border-radius: 50px;
+    padding-left:7px;
+    padding-top: 6px;
+    color: gray;
+}
+.circlee{
+    width:30px;
+    height:30px;
+    background-color: black;
+    border-radius: 50px;
+    padding-left: 6px;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: white;
+}
+.Explore{
+    display: flex;
+    align-items: center;
+    margin-left:470px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    background-color: #121212;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+.try{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.try h1{
+   margin-left: 20px;
+   margin-top: 100px;
+}
+.try h5{
+    margin-top: 100px;
+    margin-right: 20px;
+    color: gray;
+}
+.try h1:hover{
+    border-bottom: 2px solid white;
+}
+.try h5:hover{
+    border-bottom: 2px solid gray;
+}
+.bo{
+    display: flex;
+}
+.o{
+    width: 180px;
+    height: 230px;
+    background-color: #181818;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.o:hover{
+    background-color: #282828;
+}
+.p{
+    margin-left: 20px;
+}
+.phonk{
+    width:154px ;
+    height:154px ;
+    background-image: url(phonk.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+.p h4{
+     color: white;
+     margin-left: 10px;
+     margin-top: 10px;
+}
+.p h6{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+.hits{
+    width:154px ;
+    height:154px ;
+    background-image: url(hit.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+.d h4{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.d h6{
+   color: white;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: gray;
+}
+.international{
+    width:154px ;
+    height:154px ;
+    background-image: url(international.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+.f h4{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.f h6{
+   color: white;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: gray;
+}
+.friday{
+    width:154px ;
+    height:154px ;
+    background-image: url(friday.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.g h4{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.g h6{
+   color: white;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: gray;
+}
+.bollywood{
+    width:154px ;
+    height:154px ;
+    background-image: url(bollywood.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+.h h4{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.h h6{
+   color: white;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: gray;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.featured h1:hover{
+    border-bottom: 2px solid white;
+}
+.featured h5:hover{
+    border-bottom: 2px solid gray;
+}
+.featured h1{
+    margin-left: 20px;
+    color: white;
+ }
+.featured h5{
+     margin-right: 20px;
+     color: gray;
+}
+.songs{
+    width:154px ;
+    height:154px ;
+    background-image: url(top.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.w h4{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.w h6{
+   color: white;
+   margin-left: 15px;
+   margin-top: 5px;
+   color: gray;
+}
+.pakistan{
+    width:154px ;
+    height:154px ;
+    background-image: url(pakistan.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.e h4{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.e h6{
+   color: white;
+   margin-left: 15px;
+   margin-top: 5px;
+   color: gray;
+}
+.global{
+    width:154px ;
+    height:154px ;
+    background-image: url(global.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.r h4{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.r h6{
+   color: white;
+   margin-left: 15px;
+   margin-top: 5px;
+   color: gray;
+}
+.pa{
+    width:154px ;
+    height:154px ;
+    background-image: url(pa.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.t h4{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.t h6{
+   color: white;
+   margin-left:15px;
+   margin-top: 5px;
+   color: gray;
+}
+.viral{
+    width:154px ;
+    height:154px ;
+    background-image: url(viral.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.y h4{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.y h6{
+   color: white;
+   margin-left:15px;
+   margin-top: 5px;
+   color: gray;
+}
+.company{
+    display: flex;
+}
+.About{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.About h4{
+    color: white;
+    font-weight: 700;
+}
+.list a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.list a:hover{
+    color: white;
+}
+.Artist h4{
+    color: white;
+    font-weight: 700;
+}
+.Artist{
+    margin-left:70px;
+    margin-top: 100px;
+}
+.Support h4{
+    color: white;
+    font-weight: 700;
+}
+.Support{
+    margin-left:90px;
+    margin-top: 100px;
+}
+.icons{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+.v{
+    width:35px;
+    height:35px;
+    background-color: #292929;
+    border-radius: 50px;
+    padding-left:7px;
+    padding-top: 6px;
+    color: gray;
+    margin-left: 20px;
+}
+.v:hover{
+    background-color: #727272;
+}
+.instagram{
+    padding-top: 9px;
+    padding-left:9px;
+}
+.instagram svg{
+    color: white;
+}
+.facebook{
+    padding-top: 9px;
+    padding-left:9px;
+}
+.facebook svg{
+    color: white;
+}
+.twitter{
+    padding-top: 9px;
+    padding-left:9px;
+}
+.twitter svg{
+    color: white;
+}
+.line{
+    width: 950px;
+    min-height: 1px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.oc a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+}
+.spotify h4{
+     color: gray;
+}
+.oc a:hover{
+    color: white;
+}
+.bottomt{
+    width: 100%px;
+    height: 79px;
+    background-color: black;
+    display: flex;
+}
+.play svg{
+    margin-left: 25px;
+    color: #5A5A5A;
+}
+.pause{
+    display: flex;
+}
+.pause svg{
+    margin-top: -4px;
+}
+.pause svg:hover{
+   color: white;
+}
+.play{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 600px;
+}
+.double{
+    width: 470px;
+    height: 5px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #4D4D4D;
+    margin-left: 500px;
+}
+.lh{
+    display: flex;
+    flex-direction: column;
+}
+.queue{
+    width: 18px;
+    height: 15px;
+    background-image: url(jk.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 16px;
+}
+.volume svg{
+    color: white;
+    margin-left: 13px;
+}
+.video{
+    display: flex;
+    align-items: center;
+}
+.video svg{
+    color: #4D4D4D;
+}
+.volume svg:hover{
+    color: #4D4D4D;
+}
+.kal{
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+}
+.volume{
+    display: flex;
+    align-items: center;
+}
+.range input{
+    display: flex;
+    align-items: center;
+}
+.range input{
+    -webkit-appearance: none;
+    outline: none;
+    width: 130px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,1);
+    overflow: hidden;
+}
+.range input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color:black;
+    box-shadow: -410px 0 0 400px #00fd0a;
+    cursor: pointer;
+}
